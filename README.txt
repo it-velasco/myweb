@@ -1,3 +1,6 @@
+This change it done to prepare the repository to be changed with the new code.
+07.11.2021 The new code is my own implementation and do not use the templates from any thirdparty.
+
 a Project from Jonathan Velasco. www.it-velasco.com
 the original web design is fully owned by HTML5, the design´s copyright policy is written below. 
 My work on this project is not related to the original web design but to the editing, implementation

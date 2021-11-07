@@ -1,190 +1,162 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>IT Velasco</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">IT Velasco</a></li>
-							<li><a href="#one">IT-Lösungen</a></li>
-							<li><a href="#two">Über diese Website</a></li>
-							<li><a href="#three">Kontakt</a></li>
-							<li><a href="uebermich.html">Über mich</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>Jonathan Velasco</h1>
-							<p>IHK Fachinformatiker - Anwendungsentwickler in Ausbildung 02.2021-02.2023.<br />
-							</p>
-							
-							<ul class="actions">
-								<li><a href="uebermich.html" class="button scrolly">Über mich</a></li>
-							</ul>
-						</div>
-					</section>
+    <title>IT Velasco</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">IT-Velasco</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/optimierung.html">Optimierung</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/ressourcen.html">Ressourcen</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/anwendungen.html">Anwendungsentwicklung</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#kontakt">Kontakt</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Mehr!
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="/ueber-mich.html">Über mich</a></li>
+                      <li><a class="dropdown-item" href="/ueber-web.html">über diese Website</a></li>
+                      <li></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" class="image"><img src="images/nordwood-themes-kRNZiGKtz48-unsplash.jpg" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Optimierung</h2>
-									<p>Optimierung von Ressourcen und technologischem Kapital durch Planung, Ausführung und Kontrolle neuer Technologien.</p>
-									<ul class="actions">
-										<li><a href="optimierung.html" class="button">erfahren Sie mehr</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/artem-sapegin-b18TRXc8UPQ-unsplash.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Anwendungsentwicklung</h2>
-									<p>Anwendungsentwicklung mit unbegrenzten Möglichkeiten.</p>
-									<ul class="actions">
-										<li><a href="entwicklung.html" class="button">erfahren Sie mehr</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/niklas-ohlrogge-j-0olYcaihg-unsplash.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Ressourcen</h2>
-									<p>Ressourcen für die Implementierung von IT-Lösungen.</p>
-									<ul class="actions">
-										<li><a href="ressourcen.html" class="button">erfahren Sie mehr</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
+        <div class="row gy-5 py-5 mb-5">
+            <div class="mb-5"></div>
+            <div>
+                <h1 class="display-1">Jonathan Velasco</h1>
+            </div>
+            <div>
+                <h4 class="black">IHK Fachinformatiker und Anwendugsentwickler - in Ausbildung 02.2021 - 02.2023.</h4>
+            </div>
+            <div>
+                <a class="btn btn-outline-success" href="/ueber-mich.html" role="button">Über mich.</a>
+            </div>
+        </div>
+        
+        <div class="row gy-3 border py-5">
+            <div class="col-sm-5">
+                <img src="/assets/images/nordwood-themes-kRNZiGKtz48-unsplash.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-sm-7">
+              <h3 class="mb-5">Optimierung</h3>
+              <p class="mb-5">Optimierung von Ressourcen und technologischem Kapital durch Planung, Ausführung und Kontrolle neuer Technologien.</p>
+              <div>
+                <a class="btn btn-outline-success" href="/optimierung.html" role="button">Erfahren Sie mehr.</a>
+              </div>
+            </div>
+        </div>
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Über diese Website</h2>
-							<p>www.it-velasco.com ist eine Wissenssammlung aus der Ausbildung der IHK zum Fachinformatiker mit dem Schwerpunkt Anwendungsentwicklung. Der Inhalt dieser Website basiert auf der praktischen Umsetzung der während der Ausbildung erworbenen Kenntnisse.</p>
-							
-							<ul class="actions">
-								<li><a href="ueberweb.html" class="button">Erfahren Sie mehr</a></li>
-							</ul>
-						</div>
-					</section>
+        <div class="row gy-3 border py-5">
+            <div class="col-sm-5">
+                <img src="/assets/images/artem-sapegin-b18TRXc8UPQ-unsplash.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-sm-7">
+              <h3 class="mb-5">Anwendungsentwicklung</h3>
+              <p class="mb-5">Anwendungsentwicklung mit unbegrenzten Möglichkeiten.</p>
+              <div>
+                <a class="btn btn-outline-success" href="/anwendungen.html" role="button">Erfahren Sie mehr.</a>
+              </div>
+            </div>
+        </div>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Kontakt</h2>
-							<p></p>
-							<div class="split style1">
-								<section>
-									<ul class="contact">
-										
-										<li>
-											<h3>Jonathan Velasco</h3>
-										</li>
-										<li>
-											<h3>E-mail</h3>
-											<a href="mailto:kontakt@it-velasco.com">kontakt@it-velasco.com</a>
-										</li>
-										<li>
-											<h3>Handy</h3>
-											<span><a href="tel:+4917665325558">(+49) 176 6532 5558</a></span>
-										</li>
-										<li>
-											<h3>Standort</h3>
-											<span>Berlin - Deutschland<br />
-											</span>
-										</li>
-										
-									</ul>
-								</section>
-								<section>
-									<ul class="contact">
-										
-										<li>
-											<h3>GitHub</h3>
-											<ul class="icons">
-												<li><a href="https://github.com/it-velasco" class="icon brands fa-github"><span class="label">GitHub</span> www.github.com/it-velasco</a></li>
-											</ul>
-										</li>
-										
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
+        <div class="row gy-3 border py-5">
+            <div class="col-sm-5">
+                <img src="/assets/images/gabriel-sollmann-Y7d265_7i08-unsplash.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-sm-7">
+              <h3 class="mb-5">Ressourcen</h3>
+              <p class="mb-5">Ressourcen für die Implementierung von IT-Lösungen.</p>
+              <div>
+                <a class="btn btn-outline-success" href="ressourcen.html" role="button">Erfahren Sie mehr.</a>
+              </div>
+            </div>
+        </div>
 
-			</div>
+        <div class="row gy-3 py-5">
+            <div class="col-sm">
+              <h3 class="mb-5">Über diese Website</h3>
+              <p id="justify" class="mb-5">www.it-velasco.com ist eine Wissenssammlung aus der Ausbildung der IHK zum Fachinformatiker mit dem Schwerpunkt Anwendungsentwicklung. Der Inhalt dieser Website basiert auf der praktischen Umsetzung der während der Ausbildung erworbenen Kenntnisse.</p>
+              <div>
+                <a class="btn btn-outline-success" href="/ueber-web.html" role="button">Erfahren Sie mehr.</a>
+              </div>
+            </div>
+        </div>
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Untitled. Alle Rechte vorbehalten.</li><li>Entwurf von: <a href="http://html5up.net">HTML5 UP.</a></li><li><p>bearbeitet von Jonathan Velasco</p></li>
-						<p>"Erfolg hat 3 Buchstaben: TUN!" Johann Wolfgang von Goethe</p>
-					</ul>
-				</div>
-			</footer>
+        <div id="kontakt" class="row gy-3 py-5 mx-auto">
+            <div class="col-12">
+              <h3>Kontakt</h3>
+            </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/timer.js"></script>
+            <div class="col-12">
+                <h4>Jonathan Velasco</h4>
+            </div>
 
-		<!-- Cookies policy -->	
-		<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-		<script>
-			window.cookieconsent.initialise({
-			"palette": {
-				"popup": {
-				"background": "#000"
-				},
-				"button": {
-				"background": "#f1d600"
-				}
-			},
-			"theme": "edgeless",
-			"position": "bottom-right",
-			"content": {
-				"message": "Diese Website verwendet nur technisch notwendige Cookies.",
-				"dismiss": "Kapiert!",
-				"link": "Erfahren Sie mehr! (English)"
-			}
-			});
-		</script>
+            <div class="col-12">
+                <h4>E-mail</h4>
+                <a href="mailto:kontakt@it-velasco.com">kontakt@it-velasco.com</a>
+            </div>
 
-	</body>
+            <div class="col-12">
+                <h4>Handy</h4>
+                <a href="tel:+4917665325558">(+49) 176 6532 5558</a>
+            </div>
+
+            <div class="col-12">
+                <h4>Github</h4>
+                <a href="https://github.com/it-velasco">www.github.com/it-velasco</a>
+            </div>
+
+            <div class="col-12">
+                <p>Berlin - Deutschland</p>
+            </div>
+        </div>
+
+        <div>
+            <div class="col text-center">
+                <p>Jonathan Velasco</p>
+                <p>2021</p>
+                <p class="text-muted mb-0">"Erfolg hat 3 Buchstaben: TUN!" Johann Wolfgang von Goethe</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
 </html>
